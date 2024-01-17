@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(154, 75, 173, 0.9360119047619048) 50%, rgba(252, 70, 107, 1) 100%);
+
+}
+
+#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    /*move pra cima*/
+    width: 650px;
+    /*move pra baixo*/
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#relogio div {
+    height: 170px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+#dataAtual{
+    margin: 10px;    
+    letter-spacing: 7px;
+    color: aliceblue;
+
+}
+
+.tempo {
+    margin: 10px;
+}
+
+#relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#relogio .tempo {
+    font-size: 15px;
+}
+.caixamedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    /*move pra cima*/
+    width: 700px;
+    /*move pra baixo*/
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
